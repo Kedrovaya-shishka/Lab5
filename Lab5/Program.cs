@@ -7,7 +7,7 @@ for (int i = 0; i < 10; i++)
     mass[i] = Console.ReadKey().KeyChar;
 }
 Console.WriteLine();
-char duplicate = '\0'; // найденная буква
+char duplicate = '\0';
 for (int i = 0; i < mass.Length; i++)
 {
     for (int j = i + 1; j < mass.Length; j++)
